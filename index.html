@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="/Javascript/16Calc/calc.js"></script>
+  </head>
+  <body id="dark">
+    <header class=" container">
+<div class="panel panel-info">
+    <div class=" panel-heading">Calculater <hr><div> <button class=" btn btn-info " onclick="Day()">
+            Day Mode
+        </button>
+        <button class=" btn btn-info" onclick="dark()">
+            Night Mode
+        </button></div></div>
+    <div class=" panel-body">
+        <div class=" form-check-label">First Number</div>
+            <input type="text" class=" form-control" id="first">
+            <div class=" form-check-label">Second Number</div>
+            <input type="text" class=" form-control" id="second">
+            <hr>
+        <button class=" btn btn-success "   onclick="calc('Add')">
+            +
+        </button>
+        <button class=" btn btn-danger" onclick="calc('Sub')">
+            -
+        </button>
+        <button class=" btn btn-primary" onclick="calc('Mult')">
+            *
+        </button>
+        <button class=" btn btn-info" onclick="calc('Div')">
+            /
+        </button>
+        <br>
+        
+        <hr>
+        <h4 class="out">  </h4>
+       
+</div>
+    </header>
+    <script src="">
+        
+    </script>
+  </body>
+</html>
